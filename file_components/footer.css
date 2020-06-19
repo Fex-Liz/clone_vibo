@@ -1,0 +1,30 @@
+        /*FOOTER*/
+        #footer{
+            background-color: #233148;
+        }
+
+        #footer div.container p{
+            float: left;
+            font-size: 14px;
+            line-height: 100px;
+            color: white;
+        }
+
+        #footer div.container  ul{
+            float: right;
+        }
+
+        #footer div.container  ul li{
+            display: inline-block;
+            line-height: 100px;
+        }
+
+        #footer div.container  ul li a{
+            display: block;
+            padding: 0 22px;
+        }
+
+        #footer div.container  ul li a:hover img{
+            transform: scale(1);
+            transition: transform 0.3s ease-in;
+        }

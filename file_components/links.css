@@ -1,0 +1,36 @@
+        /*LINKS*/
+        #links{
+            padding-top: 140px;
+            padding-bottom: 40px;
+        }
+
+        #links div.container > div{
+            float: left;
+            width: 170px;
+            margin-right: 32px;
+        }
+
+        #links div.container > div:first-child{
+            margin-left: 200px;
+        }
+
+        #links div.container div h4{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 15px;
+            font-weight: normal;
+            line-height: 27px;
+            color: #233148;
+            margin-bottom: 17px;
+        }
+
+        #links div.container > div ul li a{
+            display: block;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 27px;
+            color: #6a6d89;
+        }
+
+        #links div.container > div ul li a:hover{
+            color: black;
+        }

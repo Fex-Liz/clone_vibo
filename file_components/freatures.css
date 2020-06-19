@@ -1,0 +1,34 @@
+        /*FREATURES*/
+        #freatures{
+            background-color: #fafafc;
+            padding: 70px 0px;
+        }
+
+        #freatures div.container > img {
+            float: left;
+            display: block;
+        }
+
+        #freatures div.container > div {
+            width: 470px;
+            float: right;
+        }
+
+        #freatures div.container > div > h2{
+            text-align: left;
+            padding-left: 35px;
+        }
+
+        #freatures div.container > div  ul li{
+            background: transparent url(./images/check.png) no-repeat left center;
+            padding-left: 35px;
+            font-size: 15px;
+            font-weight: normal;
+            line-height: 45px;
+            color: #233148;
+        }
+
+        #freatures div.container > div p{
+            text-align: left;
+            margin-top: 32px;
+        }

@@ -1,0 +1,93 @@
+#hero{
+            height: 1000px;
+            background: linear-gradient(to bottom, #0abdf2, #0ed0f0);
+            background-image: url(./images/ware.png), url(./images/smartphone.png), url(./images/bg.png);
+            background-repeat: no-repeat, no-repeat, no-repeat;
+            background-position: center bottom, center bottom -89px, center center;
+            background-size: 101% auto, auto, cover;
+        }
+        /*Container*/
+
+        /*div.container{
+            max-width: 1170px;
+            margin: 0px auto;
+        }*/
+
+        /*Header*/
+        #hero #header{
+            height: 50px;
+            padding-top: 46px;
+        }
+
+        #hero #header >a{
+            float: left;
+        }
+
+        #hero #header >ul{
+            float: right;
+        }
+
+        #hero #header >ul >li{
+            display: inline-block;
+        }
+
+        #hero #header ul li a{
+            font-family: 'Roboto Condensed', sans-serif;
+            display: block;
+            color: white;
+            font-size: 16px;
+            line-height: 44px;
+            padding:0 20px;
+        }
+
+        #hero #header ul li a:hover{
+            text-decoration: underline;
+        }
+        /*Intro*/
+        #hero #intro h1,
+        #hero #intro h2{
+            color: white;
+        }
+
+        #hero #intro h1{
+            margin-top: 115px;
+            text-align: center;
+            font-size: 45px;
+            line-height: 60px;
+            padding: 0px 300px;
+            font-family: 'Work Sans', sans-serif;
+            font-weight: normal;
+        }
+
+        #hero #intro h2{
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 28px;
+            padding:0px 300px;
+            margin-top: 20px;
+        }
+        /*LINK*/
+        #hero #link{
+            text-align: center;
+            margin-top: 58px;
+        }
+
+        #hero #link a{
+            display: inline-block;
+            height: 40px;
+            line-height: 40px;
+            color: #233148;
+            padding: 0px 30px;
+            border: 1px solid white;
+            border-radius: 6px;
+        }
+
+        #hero #link a:first-child{
+            background-color: white;
+        }
+
+        #hero #link a:nth-child(2){
+            color: white;
+        }

@@ -1,0 +1,93 @@
+        #stable{
+            padding: 110px 0px;
+            height: 626px;
+            background-color: white;
+        }
+
+        #stable div.container > div{
+            width: 472px;
+            float: left;
+        }
+
+        #stable div.container > div > h2{
+            text-align: right;
+            margin-bottom: 31px;/*(lấy khoảng cách h2 lineheight-fontsize(60-30=30/2=15),lấy khoảng cách p lineheight-fontsize(27-14=13/2=6),(15=6=21,rồi lấy khoảng cách đo đc =52,52-21=31))
+*/      }
+
+        #stable div.container > div > p{
+            text-align: right;
+            color: #6a6d89;
+            margin-bottom: 52px;/*(lấy khoảng cách p lineheight-fontsize(27-14=13/2=6),đo tới cái div của a khoảng cách bằng 58, lấy 58-6=52)*/
+        }
+
+        #stable div.container > div > div{
+            text-align: right;
+        }
+
+        #stable div.container > div > div > a{
+            display: inline-block;
+            padding: 0px 43px;
+            font-size: 15px;
+            font-weight: normal;
+            height: 50px;
+            line-height: 50px;
+            background-color: #33d2fd;
+            border-radius: 6px;
+            color: white;
+        }
+
+        ul#stable-list{
+            width: 570px;
+            float: right;
+        }
+
+        ul#stable-list > li{
+            margin-bottom: 20px;
+            box-shadow: /*Spread*/0px /*Disance*/6px /*Size*/9px rgba(35, 39, 47, 0.1);
+            min-height: 75px;
+            transition: background-color 1s ease-in, height 0.5s ease-in;
+        }
+
+        ul#stable-list > li >a{
+            display: block;
+            height: 75px;
+            line-height: 75px;
+            /*background-color: white;*/
+            color: #3e485a;
+            padding-left: 90px;
+            background-repeat: no-repeat;
+            background-position: 32px center;
+        }
+
+        ul#stable-list  > li:nth-child(1) > a{
+            background-image: url(./images/heart.png);
+        }
+
+        ul#stable-list  > li:nth-child(2) > a{
+            background-image: url(./images/tag.png);
+            background-position: 38px center;
+        }
+
+        ul#stable-list  > li:nth-child(3) > a{
+            background-image: url(./images/briftcase.png);
+        }
+
+        ul#stable-list  > li:nth-child(4) > a{
+            background-image: url(images/pen.png);
+        }
+
+        ul#stable-list > li > p {
+            display: none;
+            color: white;
+            padding: 0px 90px 30px 90px;
+
+        }
+
+        ul#stable-list li:hover{
+            background-color: #33d2fd;
+        }
+
+        ul#stable-list li:hover > p{
+            display: block;
+
+        }

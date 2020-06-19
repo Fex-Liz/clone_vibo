@@ -1,0 +1,57 @@
+        /*GET-APP*/
+        #get-app {
+            background: linear-gradient(to bottom, #0abdf2, #0ed0f0);
+            background: url(./images/bg.png) no-repeat center center;
+            padding: 110px 0px;
+            position: relative;
+        }
+
+        #get-app div.container > img{
+            float: left;
+            margin-left: 175px;
+        }
+
+        #get-app div.container > div#get-app-info{
+            float: right;
+            width: 470px;
+            margin-right: 100px;
+        }
+
+        #get-app div.container > div#get-app-info >h2{
+            text-align: left;
+            color: #233148;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 30px;
+            font-weight: normal;
+            line-height: 60px;
+            margin-top: 155px;
+            margin-bottom: 20px;
+        }
+
+        #get-app div.container > div#get-app-info >p{
+            text-align: left;
+            color: white;
+            margin-bottom: 60px;
+        }
+
+        #get-app div.container > div#get-app-info div a{
+            padding-right: 37px;
+        }
+
+        #get-app div.container a#get-app-btn{
+            display: inline-block;
+            text-align: center;
+            background: linear-gradient( to bottom, #fc6573, #f8447b);
+            width: 370px;
+            height: 70px;
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: normal;
+            line-height: 70px;
+            color: white;
+            position: absolute;
+            bottom: -35px;
+            left: 50%;
+            margin-left: -185px;
+            box-shadow: 0px 11px 29px rgba(225, 7, 95, 0.2)
+        }

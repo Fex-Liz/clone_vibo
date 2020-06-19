@@ -1,0 +1,50 @@
+        /*GET-IN-TOUCH*/
+        #get-in-touch{
+            padding-top: 40px;/*(dòng 396(uầy cái này hơi khó giải thích-tuy ở chung một div nhưng nó chia ra một khoảng trắng lớn(là 80px chỗ khoảng trắng).Nếu mà là một trang web khi các bạn scoll thì cái khoảng mà các bạn đặt mỗi cái 40px(bottom=40px-top=40px cho mỗi element)nó sẽ tạo ra một khoảng trắng 40px giúp cái elemet đó nhìn rõ hơn(nếu không chia 2 khoảng trắng or nếu các bạn đặt element trên or dưới là 80px thì khi trang web hoạt động, scoll trang nó sẽ gấy ra sự khó chịu cho người xem) ))*/
+            padding-bottom: 87px;
+        }
+
+        #get-in-touch div.container h2{
+            text-align: center;
+            margin-bottom: 7px;
+
+        }
+
+        #get-in-touch div.container p{
+            text-align: center;
+            color: #6a6d89;
+            margin-bottom: 68px;
+
+        }
+
+        #get-in-touch div.container form{
+            text-align: center;
+        }
+
+        #get-in-touch div.container form > input{
+            display: inline-block;
+            width: 568px;
+            height: 50px;
+            background-color: #f6f7fb;
+            border: none;
+            font-size: 14px;
+            padding: 0px 18px;
+        }
+
+        #get-in-touch div.container form > input:focus{/*(làm mất viền của input)*/
+            outline: none;
+        }
+
+        #get-in-touch div.container form > button{
+            display: inline-block;
+            width: 170px;
+            height: 50px;
+            background-color: #33d2fd;
+            color: #233148;
+            font-size: 15px;
+            font-weight: normal;
+            line-height: 50px;
+            border: none;
+            cursor: pointer;
+            margin-left: 32px;
+        }
